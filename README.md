@@ -84,6 +84,12 @@ include the code that creates the PNG file.
 
 * Add the PNG file and R code file to your git repository
 
+<b>NOTE:</b> 
+<ol>
+<li>Noticein order for the script to work the data should be inside a data folder. </li>
+<li>The data is readed and cleaned for each plot, so each script takes some time to execute.</li>
+<li>To complite the plots we add a colum to the data set we call the variable comTime (this variable correspond to a datetime variable).</li>
+</ol>
 When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
