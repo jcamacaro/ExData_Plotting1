@@ -1,3 +1,4 @@
+plot2 <- function() {
 ##
 # clean memory then set directory and read the data
 ##
@@ -17,7 +18,11 @@ subDat <- subset(dat, Date == as.Date("2007-02-01") | Date == as.Date("2007-02-0
 ##
 # plot 2
 ##
+par(mfrow = c(1, 1))
 plot(x=subDat$comTime, y= subDat$Global_active_power, type='l', xlab="Datetime", ylab="Global Active Power (kilowatts)")
 
 dev.copy(png, file = "plot2.png")
 dev.off()
+}
+
+plot2()

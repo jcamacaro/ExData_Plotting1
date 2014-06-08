@@ -1,3 +1,4 @@
+plot3 <- function() {
 ##
 # clean memory then set directory and read the data
 ##
@@ -21,3 +22,5 @@ legend("topright", lty=1, col = c("black","red", "blue"), legend = c("Sub_meteri
 
 dev.copy(png, file = "plot3.png")
 dev.off()
+}
+plot3()
