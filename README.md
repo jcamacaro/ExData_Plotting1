@@ -84,7 +84,7 @@ include the code that creates the PNG file.
 
 * Add the PNG file and R code file to your git repository
 
-<b>NOTE:</b> 
+<b>NOTES:</b> 
 <ol>
 <li>Noticein order for the script to work the data should be inside a data folder. </li>
 <li>The data is readed and cleaned for each plot, so each script takes some time to execute.</li>
