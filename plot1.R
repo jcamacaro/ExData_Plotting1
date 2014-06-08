@@ -3,7 +3,6 @@ plot1 <- function() {
   # clean memory then set directory and read the data
   ##
   rm(list = ls())
-  ##setwd("~/Documents/Coursera/explor_data_analisis/week_1/project")
   dat <- read.csv('./data/household_power_consumption.txt', sep=';', na.strings = "?", colClasses = c("character", "character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric"))
 
   ##
